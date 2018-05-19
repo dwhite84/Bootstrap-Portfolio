@@ -1,8 +1,24 @@
+body,html {
+    height: 100%;
+    
+} 
 
+ #bg {  
+     
+     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBTs3_Eg2hZaBjDKbi_RCDIgXIUdgU_fdN6o4MihxB0Q5IFRdB");
 
-body{
+   
+    height: 100%;  
+
+    
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}   
+
+/* body{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP9Gmx53aYfkkO-0hyMHqg3PNsInI9OZBOXP2yDYGtD_CFFGolOw");
-}
+} */
 
 .p-3{
     height:5%;
