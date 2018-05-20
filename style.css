@@ -37,6 +37,17 @@
     color: black;
 }
 
+#background{
+
+    background-image: url("https://cdn.xl.thumbs.canstockphoto.com/minimal-work-space-creative-flat-lay-photo-of-workspace-desk-office-desk-wooden-table-background-stock-photography_csp52771006.jpg");
+    height: 100%;  
+width: 100%;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
      
   
     
