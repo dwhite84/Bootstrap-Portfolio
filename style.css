@@ -1,4 +1,4 @@
-body,html {
+/* body,html {
     height: 100%;
     
 } 
@@ -14,7 +14,7 @@ body,html {
      background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
-}   
+}    */
 
 /* body{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP9Gmx53aYfkkO-0hyMHqg3PNsInI9OZBOXP2yDYGtD_CFFGolOw");
@@ -31,6 +31,10 @@ body,html {
 .card-1{
     /* margin-top: 20px; */
     background: white;
+}
+
+.color{
+    color: black;
 }
 
      
