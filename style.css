@@ -1,24 +1,24 @@
-/* body,html {
+body,html {
     height: 100%;
     
 } 
 
  #bg {  
      
-     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBTs3_Eg2hZaBjDKbi_RCDIgXIUdgU_fdN6o4MihxB0Q5IFRdB");
+     background-image: url("https://images.pexels.com/photos/370799/pexels-photo-370799.jpeg?auto=compress&cs=tinysrgb&h=350");
 
    
     height: 100%;  
 
     
-     background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
-}    */
+}   
 
 /* body{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP9Gmx53aYfkkO-0hyMHqg3PNsInI9OZBOXP2yDYGtD_CFFGolOw");
-} */
+}  */
 
 .p-3{
     height:5%;
@@ -37,16 +37,41 @@
     color: black;
 }
 
-#background{
 
-    background-image: url("https://cdn.xl.thumbs.canstockphoto.com/minimal-work-space-creative-flat-lay-photo-of-workspace-desk-office-desk-wooden-table-background-stock-photography_csp52771006.jpg");
-    height: 100%;  
-width: 100%;
-    
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.me{
+    height: 35%;
+    width: 25%; 
+    border-radius: 70%;
 }
+
+.heading{
+    font-family: 'Inconsolata', monospace;
+    color: white;   
+}
+
+.title{
+    font-size: 65px;
+}
+
+/* .cardheight  {
+    height:60%;
+
+} */
+
+.card-img-top1{
+    height: 188.41px;
+}
+
+.card-img-top2{
+    height: 188.41px;
+}
+.card-link{
+    color:white;
+}
+
+
+
+
 
      
   
