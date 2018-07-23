@@ -65,10 +65,19 @@ body,html {
 .card-img-top2{
     height: 188.41px;
 }
+
 .card-link{
     color:white;
 }
 
+.hr{
+    background-color: white; height: 1px; border: 0;
+}
+
+.nav-link1{
+    color: white;
+    font-family: 'Inconsolata', monospace;
+}
 
 
 
