@@ -3,6 +3,7 @@
      
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
         <link rel="stylesheet"  href="style.css">   
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,6 +21,10 @@
               <li class="nav-item">
                   <a class="nav-item nav-link" href="projects.html">Portfolio</a>
               </li>
+              <li class="nav-item">
+                  <a class="nav-item nav-link" href="blog.html">Blog</a>
+              </li>
+              
               <!-- <li class="nav-item">
                   <a class="nav-item nav-link" href="contact.html">Contact</a>
                 </li> -->
@@ -33,26 +38,45 @@
 
                 <!-- Form -->
                 <div class="container">
+                  <div class="row">
+                    <div class = "col-md-6">
+                      <div class = "font1">
+                      <h1>My Contact Info</h1>
+                      <hr>
+                      <br>
+                      <br>
+                      <h3>Donald E. White Jr.</h3>
+                      <p>Location: Denver, Co 80210
+                      <p>Email Address: donaldwhite84@gmail.com</p>  
+                    </div>
+                    </div>
+                    <div class = "col-md-6">
                         <div class="card">
                                 <div class="card-body">
-                                        <form>
-                                                <div class="form-group">
-                                                  <label for="exampleInputEmail1">Full Name</label>
-                                                  <input type="email" class="form-control"   placeholder="Donald E. White Jr."> 
-                                                </div>
-                                                <div class="form-group">
-                                                  <label for="exampleInputPassword1">Email Address</label>
-                                                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Donaldwhite84@gmail.com">
-                                                </div>
-                                                <div class="form-group form-check">
-                                                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                                                </div>
-                                                <button type="submit" class="btn btn-primary">Submit</button>
-                                              </form>
+                                              <form action="mailto:theodini84@gmail.com" method="post" enctype="text/plain" >
+                                                  <div class="form-group">
+                                                    <label for="exampleFormControlInput1">Full Name</label>
+                                                    <input type="form" class="form-control" id="exampleFormControlInput1" >
+                                                  </div>
+                                                  <div class="form-group">
+                                                      <label for="exampleFormControlInput1">City</label>
+                                                      <input type="form" class="form-control" id="exampleFormControlInput1" >
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="exampleFormControlInput1">Email address</label>
+                                                        <input type="email" class="form-control" id="exampleFormControlInput1">
+                                                      </div>
+                                                  <div class="form-group">
+                                                    <label for="exampleFormControlTextarea1">Message</label>
+                                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                                  </div>
+                                                  <button type="submit" class="btn btn-primary">Submit</button>
+                                                </form>
                                 </div>
                               </div>
-                                
+                              </div>
+                            </div>    
+                          </div>      
                           
 
               
